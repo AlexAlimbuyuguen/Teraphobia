@@ -1,0 +1,716 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit' Language: 'en' Physical Memory: 16340 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files (x86)\2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker29
+-projectPath
+C:/Teraphobia
+-logFile
+Logs/AssetImportWorker29.log
+-srvPort
+61564
+Successfully changed project path to: C:/Teraphobia
+C:/Teraphobia
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 191.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Teraphobia/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     1951 MB
+    Driver:   27.21.14.6647
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files (x86)/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files (x86)/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files (x86)/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files (x86)/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002740 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 208.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.894 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014608 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 196.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.209 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.9 MB.
+System memory in use after: 187.0 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 5318.
+Total: 4.578055 ms (FindLiveObjects: 0.385698 ms CreateObjectMapping: 0.281411 ms MarkObjects: 3.712965 ms  DeleteObjects: 0.196325 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 13.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5318.
+Total: 5.557364 ms (FindLiveObjects: 0.447940 ms CreateObjectMapping: 0.238702 ms MarkObjects: 4.693930 ms  DeleteObjects: 0.175137 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TestEnvironment.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestEnvironment.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1682b21e1b2d362a83fe573798a089ad') in 0.033400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.169727 seconds.
+  path: Assets/Scenes/Disclaimer.unity
+  artifactKey: Guid(30c4b92cf93836445b4d5193e822c104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Disclaimer.unity using Guid(30c4b92cf93836445b4d5193e822c104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214ce9f7eca2de097b4c0a3ef35af228') in 0.011731 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011873 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.844 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.8 MB.
+System memory in use after: 178.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5322.
+Total: 5.812620 ms (FindLiveObjects: 1.605365 ms CreateObjectMapping: 0.409866 ms MarkObjects: 3.618941 ms  DeleteObjects: 0.176461 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.9 MB.
+System memory in use after: 179.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5326.
+Total: 4.769745 ms (FindLiveObjects: 0.394968 ms CreateObjectMapping: 0.214203 ms MarkObjects: 4.010267 ms  DeleteObjects: 0.148320 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4560.718064 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@3x.png
+  artifactKey: Guid(17fa84703485d314b8d6b5216987d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@3x.png using Guid(17fa84703485d314b8d6b5216987d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426c983bc773df56ffc576e0c43e6189') in 0.238148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png
+  artifactKey: Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png using Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a677293d8f36a4d5760ea2e8716872ff') in 0.021592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy.png
+  artifactKey: Guid(42f4b048501996743958df91513f824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy.png using Guid(42f4b048501996743958df91513f824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989293e9aa5f01fbb1b5f829676dd90e') in 0.021089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy.png
+  artifactKey: Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy.png using Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6231ab447f4da430f3eeb1c7687c19b4') in 0.019763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
+  artifactKey: Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png using Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc56b51352949b40715eeedabf70aba') in 0.025119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
+  artifactKey: Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png using Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f8dd2a2f52b90d23c901408f7678d3') in 0.022088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cc85a506247c2ac37db7222245a987') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png
+  artifactKey: Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png using Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded2ce3ad83872b0a74fda44da4526ec') in 0.019858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@2x.png
+  artifactKey: Guid(2e0cf451cb3d56742aad87ea75993209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@2x.png using Guid(2e0cf451cb3d56742aad87ea75993209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a72863d81c6f138aeb6468df023d693') in 0.017672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.300226 seconds.
+  path: Assets/Sprites/Player_Idle_Left.png
+  artifactKey: Guid(778fe6da524b1514e8f6362c58b96f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Idle_Left.png using Guid(778fe6da524b1514e8f6362c58b96f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26d5d8148575bf5d5f40b176baf3e60') in 0.036640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/Player_Walk_Left.png
+  artifactKey: Guid(5ac047c5b2d5d934eb8dc8fef618c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Walk_Left.png using Guid(5ac047c5b2d5d934eb8dc8fef618c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d0986da631b2958621a143f4ed4d3e') in 0.016953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/Player_Idle_Right.png
+  artifactKey: Guid(0d1f2e9303004604cac401d34a7911e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Idle_Right.png using Guid(0d1f2e9303004604cac401d34a7911e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209bd06b654839ba5862d683b28b0a70') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/Player_Walk_Right.png
+  artifactKey: Guid(315ee5441d1a90a448989235665a95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Walk_Right.png using Guid(315ee5441d1a90a448989235665a95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248d701ae31479dcece352461a830acf') in 0.016830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.260680 seconds.
+  path: Assets/Sprites/Player_Idle_Left.png
+  artifactKey: Guid(778fe6da524b1514e8f6362c58b96f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Idle_Left.png using Guid(778fe6da524b1514e8f6362c58b96f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90160d89ac46c2e94fc024671fb26379') in 0.017800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.743473 seconds.
+  path: Assets/Sprites/Player_Idle_Left.png
+  artifactKey: Guid(778fe6da524b1514e8f6362c58b96f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Idle_Left.png using Guid(778fe6da524b1514e8f6362c58b96f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22888ebe864460200006ac42b644ec46') in 0.023451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.091663 seconds.
+  path: Assets/Sprites/Player_Idle_Right.png
+  artifactKey: Guid(0d1f2e9303004604cac401d34a7911e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Idle_Right.png using Guid(0d1f2e9303004604cac401d34a7911e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986421f49ab89d419888650dda0d786f') in 0.022304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.041426 seconds.
+  path: Assets/Sprites/Player_Idle_Right.png
+  artifactKey: Guid(0d1f2e9303004604cac401d34a7911e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Idle_Right.png using Guid(0d1f2e9303004604cac401d34a7911e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018a443392da52213275b0b949c87b6b') in 0.035826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.665311 seconds.
+  path: Assets/Sprites/Player_Walk_Left.png
+  artifactKey: Guid(5ac047c5b2d5d934eb8dc8fef618c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Walk_Left.png using Guid(5ac047c5b2d5d934eb8dc8fef618c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56e68e0234c54f08797fdcf68a1e3a') in 0.023332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.986099 seconds.
+  path: Assets/Sprites/Player_Walk_Left.png
+  artifactKey: Guid(5ac047c5b2d5d934eb8dc8fef618c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Walk_Left.png using Guid(5ac047c5b2d5d934eb8dc8fef618c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e15d8f461c78178455cba2a59b142') in 0.032851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.192909 seconds.
+  path: Assets/Sprites/Player_Walk_Right.png
+  artifactKey: Guid(315ee5441d1a90a448989235665a95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Walk_Right.png using Guid(315ee5441d1a90a448989235665a95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f79fc5b669677cff4df4a4be929714') in 0.020504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.449062 seconds.
+  path: Assets/Sprites/Player_Walk_Right.png
+  artifactKey: Guid(315ee5441d1a90a448989235665a95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player_Walk_Right.png using Guid(315ee5441d1a90a448989235665a95c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff58c962bacd82e6a31f2ed2b85463c') in 0.027620 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011565 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.1 MB.
+System memory in use after: 192.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5657.
+Total: 4.730016 ms (FindLiveObjects: 0.524417 ms CreateObjectMapping: 0.359875 ms MarkObjects: 3.704357 ms  DeleteObjects: 0.139712 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.843189 seconds.
+  path: Assets/Animations/Player_Idle_Right_0.controller
+  artifactKey: Guid(c65f4c0edb986b440ab39c867892649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Idle_Right_0.controller using Guid(c65f4c0edb986b440ab39c867892649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd2d04a2c9fc898f2c614bd3da466bb') in 0.034856 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.772 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5661.
+Total: 4.743259 ms (FindLiveObjects: 0.450919 ms CreateObjectMapping: 0.257242 ms MarkObjects: 3.886115 ms  DeleteObjects: 0.146665 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011173 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.4 MB.
+System memory in use after: 191.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5665.
+Total: 4.538326 ms (FindLiveObjects: 0.434035 ms CreateObjectMapping: 0.326105 ms MarkObjects: 3.631853 ms  DeleteObjects: 0.144678 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014097 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.190 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5669.
+Total: 5.028312 ms (FindLiveObjects: 0.430062 ms CreateObjectMapping: 0.364841 ms MarkObjects: 4.089393 ms  DeleteObjects: 0.142692 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011032 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.878 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5673.
+Total: 4.602554 ms (FindLiveObjects: 0.429731 ms CreateObjectMapping: 0.232743 ms MarkObjects: 3.789443 ms  DeleteObjects: 0.148320 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012953 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 192.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5677.
+Total: 4.623742 ms (FindLiveObjects: 0.616124 ms CreateObjectMapping: 0.239696 ms MarkObjects: 3.623907 ms  DeleteObjects: 0.142361 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011772 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.7 MB.
+System memory in use after: 192.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5681.
+Total: 4.705186 ms (FindLiveObjects: 0.473432 ms CreateObjectMapping: 0.295978 ms MarkObjects: 3.776531 ms  DeleteObjects: 0.157259 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 642.023416 seconds.
+  path: Assets/Animations/Player_Idle_Right.anim
+  artifactKey: Guid(ea38e39db2f138f43b38bc5eba2c5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Idle_Right.anim using Guid(ea38e39db2f138f43b38bc5eba2c5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed43ea014a2df17d159ad277af837080') in 0.029076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.493767 seconds.
+  path: Assets/Animations/Player_Walk_Left.anim
+  artifactKey: Guid(aac59cf5f158c7f4c84e8baba60c46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Walk_Left.anim using Guid(aac59cf5f158c7f4c84e8baba60c46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62b08d133e9e90aa26860d8d3997e17') in 0.007489 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.5 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5685.
+Total: 5.096181 ms (FindLiveObjects: 0.431386 ms CreateObjectMapping: 0.231750 ms MarkObjects: 4.261881 ms  DeleteObjects: 0.168184 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 642.381691 seconds.
+  path: Assets/Animations/Player_Walk_Left_0.controller
+  artifactKey: Guid(850006319da69744cab90f8dca60e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Walk_Left_0.controller using Guid(850006319da69744cab90f8dca60e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e6015d70cfff4f3696bbd8fbdff51b') in 0.034352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.312603 seconds.
+  path: Assets/Animations/Player_Walk_Left.anim
+  artifactKey: Guid(aac59cf5f158c7f4c84e8baba60c46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Walk_Left.anim using Guid(aac59cf5f158c7f4c84e8baba60c46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c130cf0addb32c824587ae0ba2adf4') in 0.009168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.068129 seconds.
+  path: Assets/Animations/Player_Walk_Right_0.controller
+  artifactKey: Guid(b4d94313061d2534e874ea5ec03d8511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Walk_Right_0.controller using Guid(b4d94313061d2534e874ea5ec03d8511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdf54b254bd4b1546db471af58b7bb5') in 0.009337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.426902 seconds.
+  path: Assets/Animations/Character.controller
+  artifactKey: Guid(9ac91dfbfe214e14fa3900cfe17642aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Character.controller using Guid(9ac91dfbfe214e14fa3900cfe17642aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0922b125459e2d646e950c0ea877b7d1') in 0.012898 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015667 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.205 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.7 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5689.
+Total: 4.959780 ms (FindLiveObjects: 0.847212 ms CreateObjectMapping: 0.247310 ms MarkObjects: 3.712303 ms  DeleteObjects: 0.151300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.454 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.7 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5693.
+Total: 4.557197 ms (FindLiveObjects: 0.453568 ms CreateObjectMapping: 0.224135 ms MarkObjects: 3.717269 ms  DeleteObjects: 0.160901 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011859 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.816 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5697.
+Total: 4.669430 ms (FindLiveObjects: 0.444298 ms CreateObjectMapping: 0.255256 ms MarkObjects: 3.776531 ms  DeleteObjects: 0.191690 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1427.878664 seconds.
+  path: Assets/Animations/Player_Idle_Left.anim
+  artifactKey: Guid(b9c4f8c2d5f987d47aeeb5ad545f49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Idle_Left.anim using Guid(b9c4f8c2d5f987d47aeeb5ad545f49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b86e6e7de8c65e6033aae4071e1d73') in 0.030088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550468 seconds.
+  path: Assets/Animations/Player_Walk_Right.anim
+  artifactKey: Guid(f236dace37332e048a696f2814c814e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Walk_Right.anim using Guid(f236dace37332e048a696f2814c814e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8946e242764de7379b832d37186f6bfa') in 0.010033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5701.
+Total: 4.261881 ms (FindLiveObjects: 0.435359 ms CreateObjectMapping: 0.219831 ms MarkObjects: 3.449763 ms  DeleteObjects: 0.154941 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.559384 seconds.
+  path: Assets/Animations/Character.controller
+  artifactKey: Guid(9ac91dfbfe214e14fa3900cfe17642aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Character.controller using Guid(9ac91dfbfe214e14fa3900cfe17642aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7b492fcbbe0f65c18856b77683be05') in 0.033691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.372664 seconds.
+  path: Assets/Animations/Player_Walk_Left.anim
+  artifactKey: Guid(aac59cf5f158c7f4c84e8baba60c46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Walk_Left.anim using Guid(aac59cf5f158c7f4c84e8baba60c46aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58c79c079e312f4429098328e57aeaf') in 0.008654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.846534 seconds.
+  path: Assets/Animations/Player_Idle_Right.anim
+  artifactKey: Guid(ea38e39db2f138f43b38bc5eba2c5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Idle_Right.anim using Guid(ea38e39db2f138f43b38bc5eba2c5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdc2e7371b1c65b3ce1a2a99c2bc28e') in 0.008055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613715 seconds.
+  path: Assets/Animations/Player_Idle_Left.anim
+  artifactKey: Guid(b9c4f8c2d5f987d47aeeb5ad545f49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_Idle_Left.anim using Guid(b9c4f8c2d5f987d47aeeb5ad545f49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991818facbd538545433b2596cbeb3dd') in 0.010204 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.729 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.6 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5705.
+Total: 4.338028 ms (FindLiveObjects: 0.440325 ms CreateObjectMapping: 0.342990 ms MarkObjects: 3.396792 ms  DeleteObjects: 0.155935 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011218 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.908 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5709.
+Total: 4.454565 ms (FindLiveObjects: 0.443636 ms CreateObjectMapping: 0.228108 ms MarkObjects: 3.629535 ms  DeleteObjects: 0.150969 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013137 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.867 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5713.
+Total: 4.216856 ms (FindLiveObjects: 0.477405 ms CreateObjectMapping: 0.228108 ms MarkObjects: 3.327929 ms  DeleteObjects: 0.181096 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Teraphobia\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5717.
+Total: 5.142531 ms (FindLiveObjects: 0.454561 ms CreateObjectMapping: 0.406225 ms MarkObjects: 4.136405 ms  DeleteObjects: 0.144016 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
