@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class KeyPickUp : MonoBehaviour
+public class ExitDoor : MonoBehaviour
 {
-    ExitDoor otherscript;
     // Start is called before the first frame update
     void Start()
     {
-        otherscript = GetComponent<ExitDoor>();
+        
     }
 
     // Update is called once per frame
@@ -19,15 +19,15 @@ public class KeyPickUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Door")
         {
-            Destroy(gameObject);
-
-            Debug.Log("Key Picked Up");
-
-            otherscript.enabled = true;
+            SceneManager.LoadScene("Victory Scene");
+            Debug.Log("Door Open");
         }
     }
 
-    
+    private void Awake()
+    {
+        this.enabled = false;
+    }
 }
