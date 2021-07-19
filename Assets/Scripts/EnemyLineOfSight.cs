@@ -10,6 +10,8 @@ public class EnemyLineOfSight : MonoBehaviour
     public float speed;
     private Transform target;
 
+    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,7 @@ public class EnemyLineOfSight : MonoBehaviour
             {
                 transform.Rotate(0, 0, -120f * Time.deltaTime);
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime); // Enemy will chase the player
+                audioSource.Play(); // Audio will start playing to indicate chase sequence
             }
         }
         else
