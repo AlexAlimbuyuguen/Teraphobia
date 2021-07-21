@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -10,7 +11,16 @@ public class CharacterMovement : MonoBehaviour
 
     Vector2 movement;
 
+    public bool hasKey = false;
+
+    private AudioSource lockSound;
+
     // Update is called once per frame
+    private void Start()
+    {
+        lockSound = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -20,5 +30,22 @@ public class CharacterMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Door")
+        {
+            if (hasKey == true)
+            {
+                SceneManager.LoadScene("Victory Scene");
+                Debug.Log("Door Open");
+            }
+            else
+            {
+                lockSound.Play();
+            }
+            
+        }
     }
 }

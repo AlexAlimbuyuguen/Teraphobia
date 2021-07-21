@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class ExitDoor : MonoBehaviour
+public class KeySound : MonoBehaviour
 {
+    private AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -19,12 +19,9 @@ public class ExitDoor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Door")
+        if (collision.gameObject.tag == "Key")
         {
-            SceneManager.LoadScene("Victory Scene");
-            Debug.Log("Door Open");
+            source.Play();
         }
     }
-
-    
 }

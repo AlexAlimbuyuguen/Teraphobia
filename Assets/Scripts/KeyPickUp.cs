@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class KeyPickUp : MonoBehaviour
 {
-    ExitDoor otherscript;
+    public AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
-        otherscript = GetComponent<ExitDoor>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,13 +21,11 @@ public class KeyPickUp : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            collision.gameObject.GetComponent<CharacterMovement>().hasKey = true;
+
             Destroy(gameObject);
 
-            Debug.Log("Key Picked Up");
-
-            otherscript.enabled = true;
+            Debug.Log("Key Picked Up");   
         }
     }
-
-    
 }
