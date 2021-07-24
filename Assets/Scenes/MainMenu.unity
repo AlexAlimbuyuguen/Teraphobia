@@ -954,7 +954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 204006735}
-  sceneName: TestEnvironment
+  sceneName: IntroCutscene
 --- !u!114 &895572437
 MonoBehaviour:
   m_ObjectHideFlags: 0

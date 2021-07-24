@@ -1157,7 +1157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Disclaimer: This game contains scary themes and jumpscares.'
+  m_Text: 'Disclaimer: This game contains scary themes, loud noises and jumpscares'
 --- !u!222 &1300893708
 CanvasRenderer:
   m_ObjectHideFlags: 0
