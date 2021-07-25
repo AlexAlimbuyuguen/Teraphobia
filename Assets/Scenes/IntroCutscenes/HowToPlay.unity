@@ -155,10 +155,12 @@ MonoBehaviour:
   textDisplay: {fileID: 95865330}
   sentences:
   - Marie the doll is roaming the house randomly. She can walk through walls, but
-    she can't see through walls, so break her line of sight when you can. A heart
-    beat will start playing if she sees you the first time and will keep playing
-    after breaking line of sight. If she spots you again, the heart beat will stop
-    and Marie is chasing you. Quickly break line of sight if this happens!
+    she can't see through walls, so break her line of sight when you can. Small static
+    will play if she is chasing you. Quickly break her line of sight by hiding behind
+    a wall if this happens. If you escape her line of sight the first time, a heart
+    beat will play throughout the rest of the game, to which you can use as an indicator
+    if Marie the doll is chasing you or not. If the heart beat stops, you are being
+    chased.
   typingSpeed: 0.03
   continueButton: {fileID: 495889398}
   sceneName: LevelLayout#2
@@ -1263,7 +1265,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: START
 --- !u!222 &1576264304
 CanvasRenderer:
   m_ObjectHideFlags: 0

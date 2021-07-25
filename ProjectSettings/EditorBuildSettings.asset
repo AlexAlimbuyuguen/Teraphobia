@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CreditsMenu.unity
     guid: 778837e92a6ad664080a2687cf5427b3
   - enabled: 1
+    path: Assets/Scenes/CreditsAudioMenu.unity
+    guid: 347389e9d46b40345ac5514068e94d88
+  - enabled: 1
     path: Assets/Scenes/IntroCutscenes/IntroCutscene.unity
     guid: dee596f5790b9bf46abb912f89a80895
   - enabled: 1
